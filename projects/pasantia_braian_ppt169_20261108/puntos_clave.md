@@ -11,18 +11,24 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Equipos de refrigeración · CVG Ferrominera Orinoco
 - Br. Braian Moreno · UNEG
 
-## 02 · El problema
+## 02 · Introducción
+- El mantenimiento sostiene la operación industrial.
+- El preventivo solo funciona si se **ejecuta, registra, sigue y mide**.
+- La refrigeración protege al personal, los documentos, los equipos sensibles y los procesos.
+- En FMO: parque numeroso y disperso, control informal, sin el sistema anterior.
+
+## 03 · El problema
 - El sistema SAP dejó de funcionar.
 - Datos dispersos en WhatsApp y hojas de cálculo.
 - Sin historial por equipo.
 - Sin indicadores de confiabilidad.
 - **Se registra que se trabajó, no qué le pasa a cada equipo.**
 
-## 03 · Objetivo
+## 04 · Objetivo
 - Proponer un sistema de gestión de mantenimiento preventivo para los equipos de refrigeración de FMO.
 - Alcance: diagnóstico, diseño y propuesta. No incluye implantación definitiva.
 
-## 04 · Ruta de trabajo
+## 05 · Ruta de trabajo
 1. Diagnóstico
 2. Inventario
 3. Criticidad
@@ -30,33 +36,33 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 5. Indicadores
 6. Herramienta digital + socialización
 
-## 05 · Diagnóstico (Ishikawa)
+## 06 · Diagnóstico (Ishikawa)
 - **Métodos:** preventivo solo marca "hecho" (M / 1), no el estado del equipo.
 - **Información:** refrigeración mezclada con electricidad; evidencias en el chat.
 - **Medición:** solo desempeño y satisfacción; sin MTBF, MTTR ni disponibilidad.
 - **Trazabilidad:** avisos por solicitante, no por equipo; preventivo y correctivo desconectados.
 
-## 06 · Inventario
+## 07 · Inventario
 - Punto de partida: Extraplan FERRO-5479 (~457 equipos).
 - Depurado con inspecciones, mantenimientos y reportes de falla.
 - **671 equipos · 36 áreas.**
 - Split 536 · Ventana 94 · Otro 23 · Central 17 · Cava 1.
 - Ficha técnica única por equipo (código, tipo, área, refrigerante, criticidad, frecuencia).
 
-## 07 · Criticidad
+## 08 · Criticidad
 - Encuesta al jefe del departamento (26 años de servicio), 37 áreas evaluadas.
 - **A · Alta:** 7 áreas · 173 equipos — operación y áreas sensibles.
 - **B · Media:** 24 áreas · 446 equipos — confort del personal.
 - **C · Baja:** 6 áreas · 52 equipos — menor impacto.
 - Cada equipo hereda la criticidad de su área.
 
-## 08 · Plan preventivo
+## 09 · Plan preventivo
 - Frecuencia según tipo y criticidad: más atención a la criticidad A.
 - Checklist de 15 tareas por tipo: split, ventana, central, cava.
 - Filtros, serpentines, refrigerante, temperaturas, conexiones eléctricas.
 - El checklist se integra al módulo Registrar.
 
-## 09 · Indicadores
+## 10 · Indicadores
 - Cumplimiento = ejecutados ÷ programados × 100
 - MTBF = tiempo de operación ÷ n.º de fallas
 - MTTR = horas fuera de servicio ÷ n.º de reparaciones
@@ -64,24 +70,36 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - λ = 1 ÷ MTBF
 - R(t) = e^(−λt)
 
-## 10 · Herramienta TPM FMO · Refrigeración
+## 11 · Herramienta TPM FMO · Refrigeración
 - Aplicación web en la nube: celular o PC, sin instalar nada.
 - Datos compartidos en tiempo real.
 - Módulos: Tablero · Equipos · Registrar · Jornadas · Diario · Análisis.
 
-## 11 · Resultados
+## 12–17 · Recorrido por módulos (con capturas)
+- **Tablero (Fig. 7):** alertas por área; urgentes, próximos, temperatura y pendientes.
+- **Equipos (Fig. 8):** alta de equipos e inventario por área; ficha técnica única.
+- **Registrar (Fig. 9):** fallas, preventivos con checklist guiado y temperaturas; repuestos.
+- **Jornadas (Fig. 10):** varios equipos de un área en una sola operación.
+- **Diario (Fig. 11):** todo lo atendido en una fecha.
+- **Análisis (Fig. 12):** MTBF, MTTR, disponibilidad, Pareto, refrigerante y repuestos.
+
+## 18 · Resultados
 - Cumplimiento del plan preventivo: **70,1 %** (tablero de Análisis).
 - Pareto: 4 causas ≈ **80 %** del tiempo fuera de servicio.
 - Fuga de refrigerante 197 h · Compresor 152 h · Contactor 134 h · Breaker 124 h.
 - Además controla el consumo de refrigerante y los repuestos.
 
-## 12 · Conclusiones
+## 19 · Conclusiones
 - Objetivo cumplido: una sola base de datos.
 - Inventario depurado y clasificado.
 - Indicadores calculados de forma automática.
 - Socialización con recepción favorable.
 
-## 13 · Recomendaciones
+## 20 · Conclusión general
+- La Supervisión de Refrigeración Industrial dispone hoy de una base ordenada e indicadores objetivos.
+- Diagnóstico → Diseño → Herramienta → Socialización.
+
+## 21 · Recomendaciones
 - Adoptar TPM FMO de forma progresiva.
 - Completar el año de instalación de cada equipo.
 - Registrar las lecturas de temperatura.
@@ -89,12 +107,14 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Atacar las causas vitales del Pareto.
 - Avanzar hacia TPM e ISO 55001:2024.
 
-## 14 · Cierre
+## 22 · Cierre
 - Gracias · ¿Preguntas?
 
 ---
 
-## Transiciones configuradas (`animations.json`)
-- **Morph (Transformación)** en todas las diapositivas, 0,8 s.
-- Objeto continuo `!!avance`: el panel azul de la portada se encoge hasta convertirse en la barra de progreso superior. Avanza en cada diapositiva y vuelve a expandirse en el cierre.
-- Sin animaciones de objeto: cada diapositiva aparece completa.
+## Transiciones y animaciones (`animations.json`)
+- **Morph (Transformación)** en todas las diapositivas, 0,8 s, con dos objetos continuos:
+  - `!!avance`: el panel de la portada se convierte en la barra de progreso y vuelve a expandirse en el cierre.
+  - `!!modulo`: el resaltado del módulo activo recorre la lista del 11 al 17.
+- **Entradas por objeto** en las 22 diapositivas, en cascada automática (no requieren clic): desvanecer, desplazar, barrido y zoom según el contenido.
+- **Salidas en el recorrido de módulos (12–16):** al hacer clic, la captura sale hacia la izquierda; la del siguiente módulo entra por la derecha (efecto carrusel). En esas diapositivas el primer clic retira la captura y el segundo avanza.

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="softShadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0B2545" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 931 10">
+    <rect x="0" y="0" width="931" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">MÓDULO 05 DE 06</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Diario · lo hecho cada día</text>
+  </g>
+  <g id="descripcion" data-pptx-bounds="60 150 380 240">
+    <g fill="#1497C4">
+      <rect x="64" y="172" width="12" height="12" rx="2"/>
+      <rect x="64" y="248" width="12" height="12" rx="2"/>
+      <rect x="64" y="324" width="12" height="12" rx="2"/>
+    </g>
+    <g font-size="20" fill="#0B2545">
+      <text x="88" y="186">Todo lo realizado en<tspan x="88" dy="26">una fecha específica</tspan></text>
+      <text x="88" y="262">Preventivos, correctivos,<tspan x="88" dy="26">jornadas, lecturas, instalaciones</tspan></text>
+      <text x="88" y="338">Responde al instante:<tspan x="88" dy="26" font-weight="bold">¿qué se atendió ese día?</tspan></text>
+    </g>
+  </g>
+  <g id="modulo-activo" data-pptx-role="decoration" data-pptx-bounds="60 558 380 30">
+    <rect x="60" y="558" width="380" height="30" rx="6" fill="#1497C4" fill-opacity="0.15"/>
+  </g>
+  <g id="navegador" data-pptx-bounds="60 404 380 222" font-size="18" fill="#8A97A5">
+    <text x="64" y="424" font-size="14" font-weight="bold" letter-spacing="2">MÓDULOS</text>
+    <text x="76" y="460">01 · Tablero</text>
+    <text x="76" y="490">02 · Equipos</text>
+    <text x="76" y="520">03 · Registrar</text>
+    <text x="76" y="550">04 · Jornadas</text>
+    <text x="76" y="580" font-weight="bold" fill="#0B2545">05 · Diario</text>
+    <text x="76" y="610">06 · Análisis</text>
+  </g>
+  <g id="captura" data-pptx-bounds="470 146 750 510">
+    <rect x="472" y="170" width="756" height="432" rx="8" fill="#FFFFFF" filter="url(#softShadow)"/>
+    <image href="../images/image_014.png" x="480" y="178" width="740" height="416" preserveAspectRatio="xMidYMid meet"/>
+    <text x="472" y="628" font-size="14" fill="#6B7A89">Figura 11 · Módulo Diario de actividades</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">16</text>
+  </g>
+</svg>

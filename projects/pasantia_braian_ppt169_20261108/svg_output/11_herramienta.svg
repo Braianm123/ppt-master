@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 640 10">
+    <rect x="0" y="0" width="640" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">LA PROPUESTA</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">TPM FMO · Refrigeración</text>
+  </g>
+  <g id="atributos" data-pptx-bounds="60 146 1160 100" font-size="22" fill="#0B2545">
+    <use data-icon="tabler-filled/cloud" x="64" y="176" width="32" height="32" fill="#1497C4"/>
+    <text x="108" y="201">Aplicación <tspan font-weight="bold">web en la nube</tspan></text>
+    <use data-icon="tabler-filled/device-mobile" x="452" y="176" width="32" height="32" fill="#1497C4"/>
+    <text x="496" y="201">Celular o PC, <tspan font-weight="bold">sin instalar</tspan></text>
+    <use data-icon="tabler-filled/database" x="840" y="176" width="32" height="32" fill="#1497C4"/>
+    <text x="884" y="201">Datos <tspan font-weight="bold">en tiempo real</tspan></text>
+  </g>
+  <g id="modulo-activo" data-pptx-role="decoration" data-pptx-bounds="54 274 192 304">
+    <rect x="54" y="274" width="192" height="304" rx="18" fill="#1497C4"/>
+  </g>
+  <g id="modulos" data-pptx-bounds="60 280 1160 292">
+    <g fill="#FFFFFF">
+      <rect x="60" y="280" width="180" height="292" rx="14"/>
+      <rect x="256" y="280" width="180" height="292" rx="14"/>
+      <rect x="452" y="280" width="180" height="292" rx="14"/>
+      <rect x="648" y="280" width="180" height="292" rx="14"/>
+      <rect x="844" y="280" width="180" height="292" rx="14"/>
+      <rect x="1040" y="280" width="180" height="292" rx="14"/>
+    </g>
+    <g font-size="28" font-weight="bold" fill="#1497C4">
+      <text x="80" y="332">01</text>
+      <text x="276" y="332">02</text>
+      <text x="472" y="332">03</text>
+      <text x="668" y="332">04</text>
+      <text x="864" y="332">05</text>
+      <text x="1060" y="332">06</text>
+    </g>
+    <use data-icon="tabler-filled/layout-dashboard" x="80" y="360" width="40" height="40" fill="#0B2545"/>
+    <use data-icon="tabler-filled/eye-table" x="276" y="360" width="40" height="40" fill="#0B2545"/>
+    <use data-icon="tabler-filled/clipboard-check" x="472" y="360" width="40" height="40" fill="#0B2545"/>
+    <use data-icon="tabler-filled/calendar" x="668" y="360" width="40" height="40" fill="#0B2545"/>
+    <use data-icon="tabler-filled/book" x="864" y="360" width="40" height="40" fill="#0B2545"/>
+    <use data-icon="tabler-filled/chart-pie" x="1060" y="360" width="40" height="40" fill="#0B2545"/>
+    <g font-size="22" font-weight="bold" fill="#0B2545">
+      <text x="80" y="450">Tablero</text>
+      <text x="276" y="450">Equipos</text>
+      <text x="472" y="450">Registrar</text>
+      <text x="668" y="450">Jornadas</text>
+      <text x="864" y="450">Diario</text>
+      <text x="1060" y="450">Análisis</text>
+    </g>
+    <g font-size="16" fill="#4A5A6A">
+      <text x="80" y="486">Alertas por<tspan x="80" dy="24">área</tspan></text>
+      <text x="276" y="486">Inventario y<tspan x="276" dy="24">ficha técnica</tspan></text>
+      <text x="472" y="486">Fallas, preventivos<tspan x="472" dy="24">y temperaturas</tspan></text>
+      <text x="668" y="486">Varios equipos<tspan x="668" dy="24">a la vez</tspan></text>
+      <text x="864" y="486">Lo atendido<tspan x="864" dy="24">cada día</tspan></text>
+      <text x="1060" y="486">Indicadores<tspan x="1060" dy="24">y Pareto</tspan></text>
+    </g>
+  </g>
+  <g id="recorrido" data-pptx-bounds="60 596 1160 52">
+    <text x="64" y="630" font-size="20" fill="#0B2545"><tspan font-weight="bold">A continuación:</tspan> un recorrido por cada módulo con datos reales del área.</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">11</text>
+  </g>
+</svg>

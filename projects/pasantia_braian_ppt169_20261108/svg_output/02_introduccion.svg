@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#1497C4"/>
+    </marker>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 116 10">
+    <rect x="0" y="0" width="116" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">INTRODUCCIÓN</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Mantener también es registrar</text>
+  </g>
+  <g id="premisa" data-pptx-bounds="60 146 1160 50">
+    <text x="64" y="180" font-size="24" fill="#0B2545">El preventivo solo es efectivo si se <tspan font-weight="bold" fill="#1497C4">ejecuta, se registra, se sigue y se mide.</tspan></text>
+  </g>
+  <g id="ciclo" data-pptx-bounds="60 220 1160 230">
+    <g stroke="#1497C4" stroke-width="3">
+      <line x1="268" y1="290" x2="412" y2="290" marker-end="url(#flecha)"/>
+      <line x1="548" y1="290" x2="692" y2="290" marker-end="url(#flecha)"/>
+      <line x1="828" y1="290" x2="972" y2="290" marker-end="url(#flecha)"/>
+    </g>
+    <g fill="#0B2545">
+      <circle cx="200" cy="290" r="56"/>
+      <circle cx="480" cy="290" r="56"/>
+      <circle cx="760" cy="290" r="56"/>
+    </g>
+    <circle cx="1040" cy="290" r="56" fill="#1497C4"/>
+    <use data-icon="tabler-filled/settings" x="180" y="270" width="40" height="40" fill="#FFFFFF"/>
+    <use data-icon="tabler-filled/clipboard-check" x="460" y="270" width="40" height="40" fill="#FFFFFF"/>
+    <use data-icon="tabler-filled/eye-table" x="740" y="270" width="40" height="40" fill="#FFFFFF"/>
+    <use data-icon="tabler-filled/chart-pie" x="1020" y="270" width="40" height="40" fill="#FFFFFF"/>
+    <g text-anchor="middle">
+      <g font-size="22" font-weight="bold" fill="#0B2545">
+        <text x="200" y="384">Ejecutar</text>
+        <text x="480" y="384">Registrar</text>
+        <text x="760" y="384">Seguir</text>
+        <text x="1040" y="384">Medir</text>
+      </g>
+      <g font-size="16" fill="#4A5A6A">
+        <text x="200" y="412">Tareas planificadas</text>
+        <text x="480" y="412">Datos por equipo</text>
+        <text x="760" y="412">Historial y alertas</text>
+        <text x="1040" y="412">Confiabilidad</text>
+      </g>
+    </g>
+  </g>
+  <g id="contexto" data-pptx-bounds="60 470 1160 150">
+    <rect x="60" y="474" width="1160" height="142" rx="14" fill="#0B2545"/>
+    <text x="96" y="520" font-size="20" font-weight="bold" fill="#5BC8E8">¿Por qué refrigeración?</text>
+    <text x="96" y="556" font-size="18" fill="#FFFFFF">Confort del personal, resguardo de documentos<tspan x="96" dy="26">y equipos sensibles, procesos que lo exigen.</tspan></text>
+    <text x="672" y="520" font-size="20" font-weight="bold" fill="#5BC8E8">La realidad en FMO</text>
+    <text x="672" y="556" font-size="18" fill="#FFFFFF">Parque numeroso y disperso, control informal<tspan x="672" dy="26">y sin el sistema que antes concentraba los datos.</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">02</text>
+  </g>
+</svg>
