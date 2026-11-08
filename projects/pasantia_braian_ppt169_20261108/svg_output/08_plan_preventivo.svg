@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 731 10">
+    <rect x="0" y="0" width="731" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">PLAN DE MANTENIMIENTO PREVENTIVO</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Cada equipo, su checklist</text>
+  </g>
+  <g id="cifras-plan" data-pptx-bounds="60 170 500 420">
+    <text x="64" y="244" font-size="72" font-weight="bold" fill="#1497C4">15</text>
+    <text x="64" y="284" font-size="24" fill="#0B2545">tareas estandarizadas</text>
+    <text x="64" y="384" font-size="72" font-weight="bold" fill="#1497C4">4</text>
+    <text x="64" y="424" font-size="24" fill="#0B2545">tipos: split, ventana, central, cava</text>
+    <rect x="64" y="470" width="480" height="104" rx="12" fill="#0B2545" />
+    <text x="92" y="512" font-size="20" font-weight="bold" fill="#FFFFFF">Frecuencia según tipo y criticidad<tspan x="92" dy="32" font-weight="normal" fill="#C9D6E3">Criticidad A: atención más frecuente</tspan></text>
+  </g>
+  <g id="checklist" data-pptx-bounds="620 170 600 420">
+    <rect x="620" y="170" width="600" height="420" rx="16" fill="#FFFFFF" />
+    <use data-icon="tabler-filled/clipboard-check" x="652" y="196" width="32" height="32" fill="#1497C4" />
+    <text x="696" y="220" font-size="18" font-weight="bold" fill="#6B7A89" letter-spacing="2">EXTRACTO DEL CHECKLIST</text>
+    <g fill="#1497C4">
+      <rect x="652" y="262" width="20" height="20" rx="4" />
+      <rect x="652" y="310" width="20" height="20" rx="4" />
+      <rect x="652" y="358" width="20" height="20" rx="4" />
+      <rect x="652" y="406" width="20" height="20" rx="4" />
+      <rect x="652" y="454" width="20" height="20" rx="4" />
+      <rect x="652" y="502" width="20" height="20" rx="4" />
+    </g>
+    <g font-size="20" fill="#0B2545">
+      <text x="690" y="279">Limpiar filtros de aire</text>
+      <text x="690" y="327">Limpiar serpentines (evaporador y condensador)</text>
+      <text x="690" y="375">Verificar carga de refrigerante y fugas</text>
+      <text x="690" y="423">Medir temperatura de suministro y retorno</text>
+      <text x="690" y="471">Revisar conexiones eléctricas</text>
+      <text x="690" y="519">Medir amperaje y voltaje del compresor</text>
+    </g>
+    <text x="652" y="564" font-size="16" fill="#6B7A89">Integrado como checklist guiado en el módulo Registrar</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">08</text>
+  </g>
+</svg>

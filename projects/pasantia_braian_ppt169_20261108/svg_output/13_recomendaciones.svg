@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 1189 10">
+    <rect x="0" y="0" width="1189" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">RECOMENDACIONES</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Seis pasos para la empresa</text>
+  </g>
+  <g id="rec-adoptar" data-pptx-bounds="60 170 560 120">
+    <circle cx="88" cy="204" r="24" fill="#0B2545" />
+    <text x="88" y="213" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="132" y="212" font-size="24" font-weight="bold" fill="#0B2545">Adoptar TPM FMO</text>
+    <text x="132" y="244" font-size="18" fill="#4A5A6A">De forma progresiva, como fuente oficial</text>
+  </g>
+  <g id="rec-antiguedad" data-pptx-bounds="660 170 560 120">
+    <circle cx="688" cy="204" r="24" fill="#0B2545" />
+    <text x="688" y="213" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="732" y="212" font-size="24" font-weight="bold" fill="#0B2545">Completar el año de instalación</text>
+    <text x="732" y="244" font-size="18" fill="#4A5A6A">Para medir antigüedad y planificar reemplazos</text>
+  </g>
+  <g id="rec-temperatura" data-pptx-bounds="60 310 560 120">
+    <circle cx="88" cy="344" r="24" fill="#0B2545" />
+    <text x="88" y="353" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="132" y="352" font-size="24" font-weight="bold" fill="#0B2545">Registrar temperaturas</text>
+    <text x="132" y="384" font-size="18" fill="#4A5A6A">Detectar a tiempo el bajo desempeño</text>
+  </g>
+  <g id="rec-criticidad" data-pptx-bounds="660 310 560 120">
+    <circle cx="688" cy="344" r="24" fill="#0B2545" />
+    <text x="688" y="353" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="732" y="352" font-size="24" font-weight="bold" fill="#0B2545">Priorizar la criticidad A</text>
+    <text x="732" y="384" font-size="18" fill="#4A5A6A">Atender primero sus preventivos vencidos</text>
+  </g>
+  <g id="rec-pareto" data-pptx-bounds="60 450 560 120">
+    <circle cx="88" cy="484" r="24" fill="#0B2545" />
+    <text x="88" y="493" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+    <text x="132" y="492" font-size="24" font-weight="bold" fill="#0B2545">Atacar las causas vitales</text>
+    <text x="132" y="524" font-size="18" fill="#4A5A6A">Fugas, compresor y fallas eléctricas</text>
+  </g>
+  <g id="rec-iso" data-pptx-bounds="660 450 560 120">
+    <circle cx="688" cy="484" r="24" fill="#1497C4" />
+    <text x="688" y="493" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+    <text x="732" y="492" font-size="24" font-weight="bold" fill="#0B2545">Avanzar hacia TPM e ISO 55001</text>
+    <text x="732" y="524" font-size="18" fill="#4A5A6A">Gestión de activos alineada con la estrategia</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">13</text>
+  </g>
+</svg>

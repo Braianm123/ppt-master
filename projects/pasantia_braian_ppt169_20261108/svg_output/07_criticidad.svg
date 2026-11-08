@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 640 10">
+    <rect x="0" y="0" width="640" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">ANÁLISIS DE CRITICIDAD</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Primero, lo que más impacta</text>
+  </g>
+  <g id="metodo" data-pptx-bounds="60 132 1160 36">
+    <text x="64" y="158" font-size="18" fill="#4A5A6A">Encuesta al jefe del departamento (26 años de servicio) · 37 áreas evaluadas</text>
+  </g>
+  <g id="nivel-a" data-pptx-bounds="60 184 374 412">
+    <rect x="60" y="184" width="374" height="412" rx="16" fill="#FFFFFF" />
+    <rect x="60" y="184" width="374" height="8" fill="#C62828" />
+    <rect x="92" y="220" width="72" height="72" rx="12" fill="#C62828" />
+    <text x="128" y="274" font-size="44" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+    <text x="184" y="266" font-size="26" font-weight="bold" fill="#0B2545">Alta</text>
+    <text x="92" y="388" font-size="64" font-weight="bold" fill="#C62828">173</text>
+    <text x="92" y="424" font-size="22" fill="#0B2545">equipos · 7 áreas (18,9 %)</text>
+    <text x="92" y="490" font-size="18" fill="#4A5A6A">Operación y áreas sensibles:<tspan x="92" dy="26">Control Central, PMH,</tspan><tspan x="92" dy="26">Briquetas, Telemática</tspan></text>
+  </g>
+  <g id="nivel-b" data-pptx-bounds="453 184 374 412">
+    <rect x="453" y="184" width="374" height="412" rx="16" fill="#FFFFFF" />
+    <rect x="453" y="184" width="374" height="8" fill="#B7791F" />
+    <rect x="485" y="220" width="72" height="72" rx="12" fill="#B7791F" />
+    <text x="521" y="274" font-size="44" font-weight="bold" fill="#FFFFFF" text-anchor="middle">B</text>
+    <text x="577" y="266" font-size="26" font-weight="bold" fill="#0B2545">Media</text>
+    <text x="485" y="388" font-size="64" font-weight="bold" fill="#B7791F">446</text>
+    <text x="485" y="424" font-size="22" fill="#0B2545">equipos · 24 áreas (64,9 %)</text>
+    <text x="485" y="490" font-size="18" fill="#4A5A6A">Confort del personal:<tspan x="485" dy="26">espacios administrativos</tspan><tspan x="485" dy="26">y de servicio</tspan></text>
+  </g>
+  <g id="nivel-c" data-pptx-bounds="846 184 374 412">
+    <rect x="846" y="184" width="374" height="412" rx="16" fill="#FFFFFF" />
+    <rect x="846" y="184" width="374" height="8" fill="#2E7D4F" />
+    <rect x="878" y="220" width="72" height="72" rx="12" fill="#2E7D4F" />
+    <text x="914" y="274" font-size="44" font-weight="bold" fill="#FFFFFF" text-anchor="middle">C</text>
+    <text x="970" y="266" font-size="26" font-weight="bold" fill="#0B2545">Baja</text>
+    <text x="878" y="388" font-size="64" font-weight="bold" fill="#2E7D4F">52</text>
+    <text x="878" y="424" font-size="22" fill="#0B2545">equipos · 6 áreas (16,2 %)</text>
+    <text x="878" y="490" font-size="18" fill="#4A5A6A">Zonas de menor<tspan x="878" dy="26">impacto operativo</tspan></text>
+  </g>
+  <g id="conclusion" data-pptx-bounds="60 612 1160 48">
+    <text x="64" y="644" font-size="22" fill="#0B2545"><tspan font-weight="bold">Cada equipo hereda la criticidad de su área</tspan> → orden de atención y frecuencia del preventivo.</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">07</text>
+  </g>
+</svg>

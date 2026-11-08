@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="ending" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <rect x="0" y="0" width="1280" height="720" fill="#0B2545"/>
+  </g>
+  <g id="cierre-mensaje" data-pptx-bounds="120 220 1040 230">
+    <text x="124" y="330" font-size="96" font-weight="bold" fill="#FFFFFF">Gracias</text>
+    <text x="128" y="400" font-size="36" fill="#5BC8E8">¿Preguntas?</text>
+  </g>
+  <g id="cierre-autor" data-pptx-bounds="120 520 1040 100">
+    <rect x="128" y="528" width="56" height="4" fill="#5BC8E8"/>
+    <text x="128" y="574" font-size="24" font-weight="bold" fill="#FFFFFF">Br. Braian Moreno</text>
+    <text x="128" y="606" font-size="18" fill="#C9D6E3">UNEG · CVG Ferrominera Orinoco, C.A. · Noviembre 2026</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 549 10">
+    <rect x="0" y="0" width="549" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">INVENTARIO</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Un solo parque, una sola base</text>
+  </g>
+  <g id="cifra-parque" data-pptx-bounds="60 180 520 260">
+    <text x="60" y="330" font-size="150" font-weight="bold" fill="#0B2545">671</text>
+    <text x="64" y="384" font-size="36" font-weight="bold" fill="#1497C4">equipos</text>
+    <text x="64" y="426" font-size="24" fill="#4A5A6A">en 36 áreas de la planta</text>
+  </g>
+  <g id="origen" data-pptx-bounds="60 470 520 130">
+    <rect x="60" y="478" width="4" height="112" fill="#1497C4" />
+    <text x="84" y="508" font-size="18" fill="#4A5A6A">Punto de partida: <tspan font-weight="bold" fill="#0B2545">Extraplan FERRO-5479</tspan><tspan x="84" dy="28">(~457 equipos), ampliado con inspecciones,</tspan><tspan x="84" dy="28">mantenimientos y reportes de falla.</tspan></text>
+  </g>
+  <g id="por-tipo" data-pptx-bounds="640 160 580 400">
+    <text x="644" y="188" font-size="16" font-weight="bold" fill="#6B7A89" letter-spacing="2">POR TIPO DE EQUIPO</text>
+    <g font-weight="bold" font-size="40" fill="#0B2545" text-anchor="end">
+      <text x="780" y="252">536</text>
+      <text x="780" y="322">94</text>
+      <text x="780" y="392">23</text>
+      <text x="780" y="462">17</text>
+      <text x="780" y="532">1</text>
+    </g>
+    <g font-size="24" fill="#0B2545">
+      <text x="808" y="248">Split</text>
+      <text x="808" y="318">A/A de ventana</text>
+      <text x="808" y="388">Otros</text>
+      <text x="808" y="458">Central / compacto</text>
+      <text x="808" y="528">Cava / cuarto frío</text>
+    </g>
+    <g stroke="#0B2545" stroke-opacity="0.15" stroke-width="1">
+      <line x1="644" y1="270" x2="1216" y2="270" />
+      <line x1="644" y1="340" x2="1216" y2="340" />
+      <line x1="644" y1="410" x2="1216" y2="410" />
+      <line x1="644" y1="480" x2="1216" y2="480" />
+    </g>
+  </g>
+  <g id="ficha" data-pptx-bounds="640 576 580 64">
+    <rect x="640" y="580" width="580" height="56" rx="10" fill="#1497C4" fill-opacity="0.10" />
+    <text x="660" y="614" font-size="18" fill="#0B2545"><tspan font-weight="bold">Ficha técnica:</tspan> código · tipo · área · refrigerante · criticidad</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">06</text>
+  </g>
+</svg>

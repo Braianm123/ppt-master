@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "defaults": {
+    "transition": {
+      "effect": "fade",
+      "duration": 0.6
+    }
+  },
+  "slides": {
+    "02_problema": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "01_portada",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "03_objetivo": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "02_problema",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "04_ruta": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "03_objetivo",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "05_diagnostico": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "04_ruta",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "06_inventario": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "05_diagnostico",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "07_criticidad": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "06_inventario",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "08_plan_preventivo": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "07_criticidad",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "09_indicadores": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "08_plan_preventivo",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "10_herramienta": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "09_indicadores",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "11_resultados": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "10_herramienta",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "12_conclusiones": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "11_resultados",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "13_recomendaciones": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "12_conclusiones",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "14_cierre": {
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "13_recomendaciones",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    }
+  }
+}
