@@ -77,29 +77,36 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 
 ## 12–17 · Recorrido por módulos (con capturas)
 - **Tablero (Fig. 7):** alertas por área; urgentes, próximos, temperatura y pendientes.
-- **Equipos (Fig. 8):** alta de equipos e inventario por área; ficha técnica única.
-- **Registrar (Fig. 9):** fallas, preventivos con checklist guiado y temperaturas; repuestos.
+- **Equipos (Fig. 8):** inventario por área y alta de equipos; ficha con tipo, capacidad, refrigerante, ubicación, criticidad y frecuencia. Es la base de datos de todo el sistema.
+- **Registrar (Fig. 9):** correctivos con causa de falla, horas fuera de servicio y refrigerante cargado; preventivos con checklist; temperaturas; repuestos.
 - **Jornadas (Fig. 10):** varios equipos de un área en una sola operación.
 - **Diario (Fig. 11):** todo lo atendido en una fecha.
 - **Análisis (Fig. 12):** MTBF, MTTR, disponibilidad, Pareto, refrigerante y repuestos.
 
-## 18 · Resultados
+## 18–20 · Más vistas del sistema
+- **Confiabilidad del parque (Fig. 14):** MTBF 866 d · MTTR 10,5 h · disponibilidad 99,9 % · confiabilidad a 30 días 96,6 % · 0,42 fallas por equipo al año. 72 fallas en 693 equipos en 90 días. Muestra los equipos reincidentes, candidatos a intervención de fondo o reemplazo.
+- **Refrigerante (Fig. 15):** las recargas repetidas señalan una posible fuga crónica.
+- **Repuestos (Fig. 16):** insumo directo para las compras del almacén.
+- **Historial (Fig. 17):** 276 atenciones (203 preventivos y 73 correctivos).
+- **Equipos instalados (Fig. 18):** 56 equipos instalados en sustitución de otros.
+
+## 21 · Resultados
 - Cumplimiento del plan preventivo: **70,1 %** (tablero de Análisis).
 - Pareto: 4 causas ≈ **80 %** del tiempo fuera de servicio.
 - Fuga de refrigerante 197 h · Compresor 152 h · Contactor 134 h · Breaker 124 h.
 - Además controla el consumo de refrigerante y los repuestos.
 
-## 19 · Conclusiones
+## 22 · Conclusiones
 - Objetivo cumplido: una sola base de datos.
 - Inventario depurado y clasificado.
 - Indicadores calculados de forma automática.
 - Socialización con recepción favorable.
 
-## 20 · Conclusión general
+## 23 · Conclusión general
 - La Supervisión de Refrigeración Industrial dispone hoy de una base ordenada e indicadores objetivos.
 - Diagnóstico → Diseño → Herramienta → Socialización.
 
-## 21 · Recomendaciones
+## 24 · Recomendaciones
 - Adoptar TPM FMO de forma progresiva.
 - Completar el año de instalación de cada equipo.
 - Registrar las lecturas de temperatura.
@@ -107,7 +114,7 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Atacar las causas vitales del Pareto.
 - Avanzar hacia TPM e ISO 55001:2024.
 
-## 22 · Cierre
+## 25 · Cierre
 - Gracias · ¿Preguntas?
 
 ---
@@ -116,5 +123,5 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - **Morph (Transformación)** en todas las diapositivas, 0,8 s, con dos objetos continuos:
   - `!!avance`: el panel de la portada se convierte en la barra de progreso y vuelve a expandirse en el cierre.
   - `!!modulo`: el resaltado del módulo activo recorre la lista del 11 al 17.
-- **Entradas por objeto** en las 22 diapositivas, en cascada automática (no requieren clic): desvanecer, desplazar, barrido y zoom según el contenido.
+- **Entradas por objeto** en las 25 diapositivas, en cascada automática (no requieren clic): desvanecer, desplazar, barrido y zoom según el contenido.
 - **Salidas en el recorrido de módulos (12–16):** al hacer clic, la captura sale hacia la izquierda; la del siguiente módulo entra por la derecha (efecto carrusel). En esas diapositivas el primer clic retira la captura y el segundo avanza.

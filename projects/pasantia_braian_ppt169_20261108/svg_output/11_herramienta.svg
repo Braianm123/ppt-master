@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
   <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
-  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 640 10">
-    <rect x="0" y="0" width="640" height="10" fill="#1497C4"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 563 10">
+    <rect x="0" y="0" width="563" height="10" fill="#1497C4"/>
   </g>
   <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
     <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">LA PROPUESTA</text>

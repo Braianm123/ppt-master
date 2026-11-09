@@ -5,8 +5,8 @@
     </filter>
   </defs>
   <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
-  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 931 10">
-    <rect x="0" y="0" width="931" height="10" fill="#1497C4"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 819 10">
+    <rect x="0" y="0" width="819" height="10" fill="#1497C4"/>
   </g>
   <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
     <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">MÓDULO 05 DE 06</text>

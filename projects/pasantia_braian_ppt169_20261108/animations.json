@@ -1209,7 +1209,185 @@
         }
       }
     },
-    "18_resultados": {
+    "18_confiabilidad": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "kpis": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "lectura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "17_modulo_analisis",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "19_refrigerante_repuestos": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-refrigerante": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-repuestos": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "18_confiabilidad",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "20_historial_instalados": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-historial": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-instalados": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "19_refrigerante_repuestos",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "21_resultados": {
       "groups": {
         "titulo": {
           "effects": [
@@ -1266,7 +1444,7 @@
         "duration": 0.8
       },
       "morph": {
-        "from": "17_modulo_analisis",
+        "from": "20_historial_instalados",
         "pairs": {
           "avance": {
             "from": "barra-avance",
@@ -1275,7 +1453,7 @@
         }
       }
     },
-    "19_conclusiones": {
+    "22_conclusiones": {
       "groups": {
         "titulo": {
           "effects": [
@@ -1348,7 +1526,7 @@
         "duration": 0.8
       },
       "morph": {
-        "from": "18_resultados",
+        "from": "21_resultados",
         "pairs": {
           "avance": {
             "from": "barra-avance",
@@ -1357,7 +1535,7 @@
         }
       }
     },
-    "20_conclusion_general": {
+    "23_conclusion_general": {
       "groups": {
         "titulo": {
           "effects": [
@@ -1404,7 +1582,7 @@
         "duration": 0.8
       },
       "morph": {
-        "from": "19_conclusiones",
+        "from": "22_conclusiones",
         "pairs": {
           "avance": {
             "from": "barra-avance",
@@ -1413,7 +1591,7 @@
         }
       }
     },
-    "21_recomendaciones": {
+    "24_recomendaciones": {
       "groups": {
         "titulo": {
           "effects": [
@@ -1494,7 +1672,7 @@
         "duration": 0.8
       },
       "morph": {
-        "from": "20_conclusion_general",
+        "from": "23_conclusion_general",
         "pairs": {
           "avance": {
             "from": "barra-avance",
@@ -1503,7 +1681,7 @@
         }
       }
     },
-    "22_cierre": {
+    "25_cierre": {
       "groups": {
         "cierre-mensaje": {
           "effects": [
@@ -1534,7 +1712,7 @@
         "duration": 0.8
       },
       "morph": {
-        "from": "21_recomendaciones",
+        "from": "24_recomendaciones",
         "pairs": {
           "avance": {
             "from": "barra-avance",
