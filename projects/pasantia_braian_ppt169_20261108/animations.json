@@ -72,12 +72,51 @@
             }
           ]
         },
+        "empresa": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "unidad": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "pasantia": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
         "premisa": {
           "effects": [
             {
               "effect": "entrance_fade",
               "duration": 0.5,
-              "order": 2,
+              "order": 5,
               "trigger": "after-previous"
             }
           ]
@@ -90,7 +129,7 @@
                 "direction": "right"
               },
               "duration": 0.5,
-              "order": 3,
+              "order": 6,
               "trigger": "after-previous"
             }
           ]
@@ -98,12 +137,9 @@
         "contexto": {
           "effects": [
             {
-              "effect": "entrance_fly",
-              "effect_options": {
-                "direction": "up"
-              },
-              "duration": 0.6,
-              "order": 4,
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 7,
               "trigger": "after-previous"
             }
           ]
@@ -553,16 +589,6 @@
               },
               "duration": 0.6,
               "order": 5,
-              "trigger": "after-previous"
-            }
-          ]
-        },
-        "conclusion": {
-          "effects": [
-            {
-              "effect": "entrance_fade",
-              "duration": 0.5,
-              "order": 6,
               "trigger": "after-previous"
             }
           ]
@@ -1560,7 +1586,7 @@
             }
           ]
         },
-        "cadena": {
+        "aporte": {
           "effects": [
             {
               "effect": "entrance_fly",
@@ -1569,6 +1595,42 @@
               },
               "duration": 0.6,
               "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "facilidades": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "dificultades": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cadena": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 6,
               "trigger": "after-previous"
             }
           ]

@@ -7,24 +7,63 @@
     <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">CONCLUSIÓN GENERAL</text>
     <text x="64" y="112" font-size="40" fill="#0B2545">Una base para decidir</text>
   </g>
-  <g id="sintesis" data-pptx-bounds="60 160 1160 270">
-    <rect x="64" y="176" width="8" height="236" fill="#1497C4"/>
-    <text x="104" y="232" font-size="36" font-weight="bold" fill="#0B2545">La Supervisión de Refrigeración Industrial<tspan x="104" dy="52">dispone hoy de una <tspan fill="#1497C4">base ordenada</tspan> y de</tspan><tspan x="104" dy="52"><tspan fill="#1497C4">indicadores objetivos</tspan> para medir el</tspan><tspan x="104" dy="52">mantenimiento y respaldar sus decisiones.</tspan></text>
+  <g id="sintesis" data-pptx-bounds="60 146 1160 120">
+    <rect x="64" y="156" width="6" height="96" fill="#1497C4"/>
+    <text x="96" y="192" font-size="28" font-weight="bold" fill="#0B2545">FMO dispone hoy de una <tspan fill="#1497C4">base ordenada</tspan> y de <tspan fill="#1497C4">indicadores objetivos</tspan><tspan x="96" dy="40">para medir su mantenimiento de frío y respaldar decisiones.</tspan></text>
   </g>
-  <g id="cadena" data-pptx-bounds="60 470 1160 150">
-    <rect x="60" y="474" width="1160" height="142" rx="14" fill="#FFFFFF"/>
-    <g font-size="20" font-weight="bold" fill="#1497C4">
-      <text x="96" y="526">Diagnóstico</text>
-      <text x="386" y="526">Diseño</text>
-      <text x="676" y="526">Herramienta</text>
-      <text x="966" y="526">Socialización</text>
+  <g id="aporte" data-pptx-bounds="60 286 373 260">
+    <rect x="60" y="290" width="373" height="252" rx="14" fill="#0B2545"/>
+    <text x="84" y="322" font-size="13" font-weight="bold" fill="#5BC8E8" letter-spacing="2">APORTE A LA EMPRESA</text>
+    <g fill="#5BC8E8">
+      <rect x="84" y="348" width="10" height="10" rx="2"/>
+      <rect x="84" y="384" width="10" height="10" rx="2"/>
+      <rect x="84" y="420" width="10" height="10" rx="2"/>
+      <rect x="84" y="456" width="10" height="10" rx="2"/>
+      <rect x="84" y="492" width="10" height="10" rx="2"/>
     </g>
-    <g font-size="17" fill="#4A5A6A">
-      <text x="96" y="560">Información dispersa<tspan x="96" dy="24">y sin indicadores</tspan></text>
-      <text x="386" y="560">Inventario, criticidad,<tspan x="386" dy="24">plan e indicadores</tspan></text>
-      <text x="676" y="560">TPM FMO con datos<tspan x="676" dy="24">reales del parque</tspan></text>
-      <text x="966" y="560">Recepción favorable<tspan x="966" dy="24">del personal</tspan></text>
+    <g font-size="16" fill="#FFFFFF">
+      <text x="106" y="359">671 equipos en una sola base de datos</text>
+      <text x="106" y="395">Criticidad por área para priorizar</text>
+      <text x="106" y="431">Plan preventivo con checklist por tipo</text>
+      <text x="106" y="467">Indicadores y Pareto automáticos</text>
+      <text x="106" y="503">TPM FMO lista para adoptarse</text>
     </g>
+  </g>
+  <g id="facilidades" data-pptx-bounds="453 286 373 260">
+    <rect x="453" y="290" width="373" height="252" rx="14" fill="#FFFFFF"/>
+    <text x="477" y="322" font-size="13" font-weight="bold" fill="#2E7D4F" letter-spacing="2">PASANTÍA · FACILIDADES</text>
+    <g fill="#2E7D4F">
+      <rect x="477" y="348" width="10" height="10" rx="2"/>
+      <rect x="477" y="384" width="10" height="10" rx="2"/>
+      <rect x="477" y="420" width="10" height="10" rx="2"/>
+      <rect x="477" y="456" width="10" height="10" rx="2"/>
+    </g>
+    <g font-size="16" fill="#0B2545">
+      <text x="499" y="359">Acompañamiento del departamento</text>
+      <text x="499" y="395">Jefe con 26 años de experiencia</text>
+      <text x="499" y="431">Acceso a las áreas de la planta</text>
+      <text x="499" y="467">El Extraplan como punto de partida</text>
+    </g>
+  </g>
+  <g id="dificultades" data-pptx-bounds="846 286 374 260">
+    <rect x="846" y="290" width="374" height="252" rx="14" fill="#FFFFFF"/>
+    <text x="870" y="322" font-size="13" font-weight="bold" fill="#C62828" letter-spacing="2">PASANTÍA · DIFICULTADES</text>
+    <g fill="#C62828">
+      <rect x="870" y="348" width="10" height="10" rx="2"/>
+      <rect x="870" y="384" width="10" height="10" rx="2"/>
+      <rect x="870" y="420" width="10" height="10" rx="2"/>
+      <rect x="870" y="456" width="10" height="10" rx="2"/>
+    </g>
+    <g font-size="16" fill="#0B2545">
+      <text x="892" y="359">Pérdida del SAP: sin historial</text>
+      <text x="892" y="395">Inventario desactualizado</text>
+      <text x="892" y="431">Personal limitado frente al parque</text>
+      <text x="892" y="467">Fugas de refrigerante recurrentes</text>
+    </g>
+  </g>
+  <g id="cadena" data-pptx-bounds="60 566 1160 72">
+    <rect x="60" y="570" width="1160" height="64" rx="12" fill="#1497C4" fill-opacity="0.10"/>
+    <text x="640" y="610" font-size="20" fill="#0B2545" text-anchor="middle"><tspan font-weight="bold" fill="#1497C4">Diagnóstico → Diseño → Herramienta → Socialización</tspan> · recepción favorable del personal</text>
   </g>
   <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
     <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>

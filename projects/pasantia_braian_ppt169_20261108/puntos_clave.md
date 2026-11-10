@@ -12,12 +12,12 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Br. Braian Moreno · UNEG
 
 ## 02 · Introducción
-- El mantenimiento sostiene la operación industrial.
-- El preventivo solo funciona si se **ejecuta, registra, sigue y mide**.
-- La refrigeración protege al personal, los documentos, los equipos sensibles y los procesos.
-- En FMO: parque numeroso y disperso, control informal, sin el sistema anterior.
-
-## 03 · El problema
+- **La empresa:** CVG Ferrominera Orinoco extrae, procesa y vende mineral de hierro. Es estatal, está activa desde 1976 en el estado Bolívar, tiene las plantas PMH, Pellas y Briquetas, y es el principal proveedor de la siderurgia nacional.
+- **La unidad:** Supervisión de Refrigeración Industrial (Gerencia de Servicios, Dpto. de Servicios Industriales), con 21 posiciones y 14 técnicos de frío.
+- **La pasantía:** Ingeniería Industrial, UNEG. Tutores: Ing. Jorge Rosas (industrial) e Ing. Yuswaldo Silva (académico). Plan de 9 actividades; el alcance es una propuesta, no la implantación.
+- El preventivo solo es efectivo si se **ejecuta, registra, sigue y mide**.
+- La refrigeración protege al personal, los documentos, los equipos sensibles y los procesos. En FMO el parque es numeroso y disperso y el control era informal.
+ · El problema
 - El sistema SAP dejó de funcionar.
 - Datos dispersos en WhatsApp y hojas de cálculo.
 - Sin historial por equipo.
@@ -49,14 +49,18 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Split 536 · Ventana 94 · Otro 23 · Central 17 · Cava 1.
 - Ficha técnica única por equipo (código, tipo, área, refrigerante, criticidad, frecuencia).
 
-## 08 · Criticidad
+## 08 · Criticidad (incluye el Cuadro 3 completo)
+- **A:** Gerencia de Calidad, Planta de Briquetas, PMH, Agencia de Buques (Muelle), Ferrocarril, Telemática, Control Central.
+- **C:** Desarrollo Endógeno, Centro Cívico, Estadio, C-11, Comisariato, Portón Principal.
+- **B:** las 24 áreas restantes, todas listadas en la diapositiva.
 - Encuesta al jefe del departamento (26 años de servicio), 37 áreas evaluadas.
 - **A · Alta:** 7 áreas · 173 equipos — operación y áreas sensibles.
 - **B · Media:** 24 áreas · 446 equipos — confort del personal.
 - **C · Baja:** 6 áreas · 52 equipos — menor impacto.
 - Cada equipo hereda la criticidad de su área.
 
-## 09 · Plan preventivo
+## 09 · Plan preventivo (incluye el Cuadro 5 completo)
+- Tabla de 15 tareas × 4 tipos de equipo; tareas por tipo: split 12, ventana 11, central 13, cava 13.
 - Frecuencia según tipo y criticidad: más atención a la criticidad A.
 - Checklist de 15 tareas por tipo: split, ventana, central, cava.
 - Filtros, serpentines, refrigerante, temperaturas, conexiones eléctricas.
@@ -103,10 +107,11 @@ Tutor industrial: Ing. Jorge Rosas · Tutor académico: Ing. Yuswaldo Silva
 - Socialización con recepción favorable.
 
 ## 23 · Conclusión general
-- La Supervisión de Refrigeración Industrial dispone hoy de una base ordenada e indicadores objetivos.
-- Diagnóstico → Diseño → Herramienta → Socialización.
-
-## 24 · Recomendaciones
+- FMO dispone hoy de una base ordenada e indicadores objetivos para medir su mantenimiento de frío y respaldar decisiones.
+- **Aporte a la empresa:** 671 equipos en una sola base de datos, criticidad por área, plan con checklist, indicadores y Pareto automáticos, y TPM FMO lista para adoptarse.
+- **Facilidades:** acompañamiento del departamento, un jefe con 26 años de experiencia, acceso a las áreas y el Extraplan como punto de partida.
+- **Dificultades:** pérdida del SAP, inventario desactualizado, personal limitado frente al parque y fugas recurrentes.
+ · Recomendaciones
 - Adoptar TPM FMO de forma progresiva.
 - Completar el año de instalación de cada equipo.
 - Registrar las lecturas de temperatura.
