@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="softShadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0B2545" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 973 10">
+    <rect x="0" y="0" width="973" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">MÁS VISTAS · 2 DE 3</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Refrigerante y repuestos bajo control</text>
+  </g>
+  <g id="vista-refrigerante" data-pptx-bounds="60 146 560 470">
+    <text x="64" y="172" font-size="22" font-weight="bold" fill="#0B2545">Consumo de refrigerante</text>
+    <text x="64" y="200" font-size="18" fill="#4A5A6A">Recargas repetidas = <tspan font-weight="bold" fill="#C62828">posible fuga crónica</tspan></text>
+    <rect x="118" y="222" width="444" height="356" rx="8" fill="#FFFFFF" filter="url(#softShadow)"/>
+    <image href="../images/image_018_2.png" x="126" y="230" width="428" height="340" preserveAspectRatio="xMidYMid meet"/>
+    <text x="118" y="604" font-size="14" fill="#6B7A89">Figura 15 · Consumo y alerta de posibles fugas</text>
+  </g>
+  <g id="vista-repuestos" data-pptx-bounds="660 146 560 470">
+    <text x="664" y="172" font-size="22" font-weight="bold" fill="#0B2545">Control de repuestos</text>
+    <text x="664" y="200" font-size="18" fill="#4A5A6A">Insumo directo para las <tspan font-weight="bold" fill="#0B2545">compras del almacén</tspan></text>
+    <rect x="719" y="222" width="432" height="356" rx="8" fill="#FFFFFF" filter="url(#softShadow)"/>
+    <image href="../images/image_019.png" x="727" y="230" width="416" height="340" preserveAspectRatio="xMidYMid meet"/>
+    <text x="719" y="604" font-size="14" fill="#6B7A89">Figura 16 · Repuestos utilizados en el período</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">19</text>
+  </g>
+</svg>

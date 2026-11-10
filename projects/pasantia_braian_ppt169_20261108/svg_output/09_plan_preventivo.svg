@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 461 10">
+    <rect x="0" y="0" width="461" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">PLAN DE MANTENIMIENTO PREVENTIVO</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Cada equipo, su checklist</text>
+  </g>
+  <g id="cifras-plan" data-pptx-bounds="60 146 276 470">
+    <g font-size="72" font-weight="bold" fill="#1497C4">
+      <text x="60" y="220">15</text>
+      <text x="60" y="352">4</text>
+    </g>
+    <g font-size="22" fill="#0B2545">
+      <text x="64" y="256">tareas estandarizadas</text>
+      <text x="64" y="388">tipos de equipo</text>
+    </g>
+    <rect x="60" y="420" width="272" height="122" rx="12" fill="#0B2545"/>
+    <text x="84" y="458" font-size="20" font-weight="bold" fill="#FFFFFF">Frecuencia según<tspan x="84" dy="26">tipo y criticidad</tspan></text>
+    <text x="84" y="520" font-size="16" fill="#C9D6E3">A: atención más frecuente</text>
+    <text x="64" y="584" font-size="16" fill="#6B7A89">Checklist guiado en<tspan x="64" dy="22">el módulo Registrar</tspan></text>
+  </g>
+  <g id="checklist" data-pptx-bounds="356 142 868 520">
+    <rect x="360" y="146" width="860" height="484" rx="10" fill="#FFFFFF"/>
+    <rect x="360" y="146" width="860" height="32" fill="#0B2545"/>
+    <g fill="#1497C4" fill-opacity="0.06">
+      <rect x="360" y="206" width="860" height="28"/>
+      <rect x="360" y="262" width="860" height="28"/>
+      <rect x="360" y="318" width="860" height="28"/>
+      <rect x="360" y="374" width="860" height="28"/>
+      <rect x="360" y="430" width="860" height="28"/>
+      <rect x="360" y="486" width="860" height="28"/>
+      <rect x="360" y="542" width="860" height="28"/>
+    </g>
+    <rect x="360" y="598" width="860" height="32" fill="#1497C4" fill-opacity="0.14"/>
+    <g font-size="15" font-weight="bold" fill="#FFFFFF">
+      <text x="376" y="168">Actividad de mantenimiento</text>
+      <g text-anchor="middle">
+        <text x="922" y="168">Split</text>
+        <text x="1007" y="168">Ventana</text>
+        <text x="1092" y="168">Central</text>
+        <text x="1177" y="168">Cava</text>
+      </g>
+    </g>
+    <g font-size="15" fill="#0B2545">
+      <text x="376" y="197">Limpieza o reemplazo de filtros de aire</text>
+      <text x="376" y="225">Limpieza del serpentín evaporador</text>
+      <text x="376" y="253">Limpieza del serpentín condensador</text>
+      <text x="376" y="281">Lavado de bandeja y drenaje de condensado</text>
+      <text x="376" y="309">Verificación de carga de refrigerante y prueba de fugas</text>
+      <text x="376" y="337">Medición de temperatura de suministro y retorno</text>
+      <text x="376" y="365">Revisión y ajuste de conexiones eléctricas</text>
+      <text x="376" y="393">Medición de amperaje y voltaje del compresor o motor</text>
+      <text x="376" y="421">Limpieza de aspas y verificación de ventiladores</text>
+      <text x="376" y="449">Revisión del aislamiento térmico de tuberías</text>
+      <text x="376" y="477">Verificación del termostato o control de temperatura</text>
+      <text x="376" y="505">Revisión de correas, poleas y motor de la manejadora</text>
+      <text x="376" y="533">Revisión de sellos y cierre hermético de puertas</text>
+      <text x="376" y="561">Verificación del sistema de desescarche</text>
+      <text x="376" y="589">Limpieza general del gabinete o carcasa</text>
+    </g>
+    <g font-size="16" font-weight="bold" fill="#1497C4" text-anchor="middle">
+      <text x="922" y="197">✓</text>
+      <text x="922" y="225">✓</text>
+      <text x="922" y="253">✓</text>
+      <text x="922" y="281">✓</text>
+      <text x="922" y="309">✓</text>
+      <text x="922" y="337">✓</text>
+      <text x="922" y="365">✓</text>
+      <text x="922" y="393">✓</text>
+      <text x="922" y="421">✓</text>
+      <text x="922" y="449">✓</text>
+      <text x="922" y="477">✓</text>
+      <text x="922" y="589">✓</text>
+      <text x="1007" y="197">✓</text>
+      <text x="1007" y="225">✓</text>
+      <text x="1007" y="253">✓</text>
+      <text x="1007" y="281">✓</text>
+      <text x="1007" y="309">✓</text>
+      <text x="1007" y="337">✓</text>
+      <text x="1007" y="365">✓</text>
+      <text x="1007" y="393">✓</text>
+      <text x="1007" y="421">✓</text>
+      <text x="1007" y="477">✓</text>
+      <text x="1007" y="589">✓</text>
+      <text x="1092" y="197">✓</text>
+      <text x="1092" y="225">✓</text>
+      <text x="1092" y="253">✓</text>
+      <text x="1092" y="281">✓</text>
+      <text x="1092" y="309">✓</text>
+      <text x="1092" y="337">✓</text>
+      <text x="1092" y="365">✓</text>
+      <text x="1092" y="393">✓</text>
+      <text x="1092" y="421">✓</text>
+      <text x="1092" y="449">✓</text>
+      <text x="1092" y="477">✓</text>
+      <text x="1092" y="505">✓</text>
+      <text x="1092" y="589">✓</text>
+      <text x="1177" y="225">✓</text>
+      <text x="1177" y="253">✓</text>
+      <text x="1177" y="281">✓</text>
+      <text x="1177" y="309">✓</text>
+      <text x="1177" y="337">✓</text>
+      <text x="1177" y="365">✓</text>
+      <text x="1177" y="393">✓</text>
+      <text x="1177" y="421">✓</text>
+      <text x="1177" y="449">✓</text>
+      <text x="1177" y="477">✓</text>
+      <text x="1177" y="533">✓</text>
+      <text x="1177" y="561">✓</text>
+      <text x="1177" y="589">✓</text>
+    </g>
+    <g font-size="15" fill="#B0BAC5" text-anchor="middle">
+      <text x="922" y="505">—</text>
+      <text x="922" y="533">—</text>
+      <text x="922" y="561">—</text>
+      <text x="1007" y="449">—</text>
+      <text x="1007" y="505">—</text>
+      <text x="1007" y="533">—</text>
+      <text x="1007" y="561">—</text>
+      <text x="1092" y="533">—</text>
+      <text x="1092" y="561">—</text>
+      <text x="1177" y="197">—</text>
+      <text x="1177" y="505">—</text>
+    </g>
+    <g font-size="15" font-weight="bold" fill="#0B2545">
+      <text x="376" y="619">Tareas por tipo de equipo</text>
+      <g text-anchor="middle">
+        <text x="922" y="619">12</text>
+        <text x="1007" y="619">11</text>
+        <text x="1092" y="619">13</text>
+        <text x="1177" y="619">13</text>
+      </g>
+    </g>
+    <text x="360" y="652" font-size="13" fill="#6B7A89">Cuadro 5 · Checklist de mantenimiento preventivo por tipo de equipo</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">09</text>
+  </g>
+</svg>

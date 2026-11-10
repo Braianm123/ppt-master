@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 1126 10">
+    <rect x="0" y="0" width="1126" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">CONCLUSIONES</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Del registro informal a la gestión</text>
+  </g>
+  <g id="conclusion-1" data-pptx-bounds="60 180 540 200">
+    <rect x="64" y="190" width="520" height="3" fill="#1497C4" />
+    <text x="64" y="262" font-size="56" font-weight="bold" fill="#1497C4">01</text>
+    <text x="160" y="250" font-size="26" font-weight="bold" fill="#0B2545">Objetivo cumplido</text>
+    <text x="160" y="290" font-size="20" fill="#4A5A6A">Una sola base de datos para<tspan x="160" dy="28">todo el mantenimiento de frío</tspan></text>
+  </g>
+  <g id="conclusion-2" data-pptx-bounds="660 180 560 200">
+    <rect x="664" y="190" width="520" height="3" fill="#1497C4" />
+    <text x="664" y="262" font-size="56" font-weight="bold" fill="#1497C4">02</text>
+    <text x="760" y="250" font-size="26" font-weight="bold" fill="#0B2545">Inventario depurado</text>
+    <text x="760" y="290" font-size="20" fill="#4A5A6A">671 equipos clasificados por<tspan x="760" dy="28">tipo y nivel de criticidad</tspan></text>
+  </g>
+  <g id="conclusion-3" data-pptx-bounds="60 400 540 200">
+    <rect x="64" y="410" width="520" height="3" fill="#1497C4" />
+    <text x="64" y="482" font-size="56" font-weight="bold" fill="#1497C4">03</text>
+    <text x="160" y="470" font-size="26" font-weight="bold" fill="#0B2545">Indicadores automáticos</text>
+    <text x="160" y="510" font-size="20" fill="#4A5A6A">Cumplimiento, MTBF, MTTR,<tspan x="160" dy="28">disponibilidad y Pareto</tspan></text>
+  </g>
+  <g id="conclusion-4" data-pptx-bounds="660 400 560 200">
+    <rect x="664" y="410" width="520" height="3" fill="#1497C4" />
+    <text x="664" y="482" font-size="56" font-weight="bold" fill="#1497C4">04</text>
+    <text x="760" y="470" font-size="26" font-weight="bold" fill="#0B2545">Recepción favorable</text>
+    <text x="760" y="510" font-size="20" fill="#4A5A6A">Personal y supervisión validaron<tspan x="760" dy="28">la propuesta en la socialización</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">22</text>
+  </g>
+</svg>

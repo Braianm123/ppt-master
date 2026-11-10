@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#0B2545" />
+    </marker>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 307 10">
+    <rect x="0" y="0" width="307" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">DIAGNÓSTICO · ISHIKAWA</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Cuatro causas de un mismo vacío</text>
+  </g>
+  <g id="causa-metodos" data-pptx-bounds="100 186 400 120">
+    <text x="104" y="216" font-size="22" font-weight="bold" fill="#1497C4">Métodos</text>
+    <text x="104" y="252" font-size="18" fill="#0B2545">Preventivo solo marca «hecho»<tspan x="104" dy="28">No registra el estado del equipo</tspan></text>
+  </g>
+  <g id="causa-informacion" data-pptx-bounds="540 186 400 120">
+    <text x="544" y="216" font-size="22" font-weight="bold" fill="#1497C4">Información</text>
+    <text x="544" y="252" font-size="18" fill="#0B2545">Refrigeración mezclada con electricidad<tspan x="544" dy="28">Evidencias perdidas en el chat</tspan></text>
+  </g>
+  <g id="espina" data-pptx-bounds="80 320 890 160" stroke="#0B2545">
+    <line x1="350" y1="322" x2="420" y2="398" stroke-width="2" />
+    <line x1="790" y1="322" x2="860" y2="398" stroke-width="2" />
+    <line x1="350" y1="478" x2="420" y2="402" stroke-width="2" />
+    <line x1="790" y1="478" x2="860" y2="402" stroke-width="2" />
+    <line x1="80" y1="400" x2="950" y2="400" stroke-width="4" marker-end="url(#flecha)" />
+  </g>
+  <g id="efecto" data-pptx-bounds="970 320 250 160">
+    <rect x="970" y="330" width="250" height="140" rx="12" fill="#0B2545" />
+    <text x="1095" y="392" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Gestión sin<tspan x="1095" dy="32">datos confiables</tspan></text>
+  </g>
+  <g id="causa-medicion" data-pptx-bounds="100 494 400 120">
+    <text x="104" y="524" font-size="22" font-weight="bold" fill="#1497C4">Medición</text>
+    <text x="104" y="560" font-size="18" fill="#0B2545">Solo desempeño y satisfacción<tspan x="104" dy="28">Sin MTBF, MTTR ni disponibilidad</tspan></text>
+  </g>
+  <g id="causa-trazabilidad" data-pptx-bounds="540 494 400 120">
+    <text x="544" y="524" font-size="22" font-weight="bold" fill="#1497C4">Trazabilidad</text>
+    <text x="544" y="560" font-size="18" fill="#0B2545">Avisos por solicitante, no por equipo<tspan x="544" dy="28">Preventivo y correctivo desconectados</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">06</text>
+  </g>
+</svg>

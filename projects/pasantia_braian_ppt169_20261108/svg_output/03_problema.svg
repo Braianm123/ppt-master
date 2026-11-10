@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 154 10">
+    <rect x="0" y="0" width="154" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">EL PROBLEMA</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Sin sistema, sin historial</text>
+  </g>
+  <g id="problemas" data-pptx-bounds="60 170 600 420">
+    <g id="problema-sap">
+      <circle cx="104" cy="214" r="32" fill="#1497C4" fill-opacity="0.12" />
+      <use data-icon="tabler-filled/database" x="84" y="194" width="40" height="40" fill="#1497C4" />
+      <text x="156" y="223" font-size="26" fill="#0B2545">El sistema <tspan font-weight="bold">SAP</tspan> dejó de funcionar</text>
+    </g>
+    <g id="problema-datos">
+      <circle cx="104" cy="318" r="32" fill="#1497C4" fill-opacity="0.12" />
+      <use data-icon="tabler-filled/message" x="84" y="298" width="40" height="40" fill="#1497C4" />
+      <text x="156" y="327" font-size="26" fill="#0B2545">Datos dispersos en <tspan font-weight="bold">WhatsApp y Excel</tspan></text>
+    </g>
+    <g id="problema-historial">
+      <circle cx="104" cy="422" r="32" fill="#1497C4" fill-opacity="0.12" />
+      <use data-icon="tabler-filled/file" x="84" y="402" width="40" height="40" fill="#1497C4" />
+      <text x="156" y="431" font-size="26" fill="#0B2545">Sin <tspan font-weight="bold">historial</tspan> por equipo</text>
+    </g>
+    <g id="problema-indicadores">
+      <circle cx="104" cy="526" r="32" fill="#1497C4" fill-opacity="0.12" />
+      <use data-icon="tabler-filled/chart-pie" x="84" y="506" width="40" height="40" fill="#1497C4" />
+      <text x="156" y="535" font-size="26" fill="#0B2545">Sin <tspan font-weight="bold">indicadores</tspan> de confiabilidad</text>
+    </g>
+  </g>
+  <g id="hallazgo" data-pptx-bounds="700 170 520 420">
+    <rect x="700" y="170" width="520" height="420" rx="16" fill="#0B2545" />
+    <text x="748" y="268" font-size="88" font-weight="bold" fill="#5BC8E8">+700</text>
+    <text x="748" y="312" font-size="22" fill="#C9D6E3">actividades preventivas al año</text>
+    <rect x="748" y="352" width="56" height="4" fill="#5BC8E8" />
+    <text x="748" y="410" font-size="28" font-weight="bold" fill="#FFFFFF">Se registra que se trabajó,<tspan x="748" dy="40">no qué le pasa</tspan><tspan x="748" dy="40">a cada equipo.</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">03</text>
+  </g>
+</svg>

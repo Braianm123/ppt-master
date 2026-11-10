@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="cover" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 460 720">
+    <rect x="0" y="0" width="460" height="720" fill="#0B2545"/>
+  </g>
+  <g id="portada-etiqueta" data-pptx-bounds="60 70 360 180">
+    <text x="64" y="104" font-size="16" font-weight="bold" fill="#5BC8E8" letter-spacing="3">INFORME DE PASANTÍA</text>
+    <text x="64" y="160" font-size="24" fill="#FFFFFF">Ingeniería Industrial<tspan x="64" dy="34">UNEG · Noviembre 2026</tspan></text>
+  </g>
+  <g id="portada-logos" data-pptx-bounds="520 60 360 110">
+    <image href="../images/image_001.png" x="520" y="64" width="211" height="100" preserveAspectRatio="xMidYMid meet"/>
+    <image href="../images/image_002.png" x="760" y="64" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="portada-titulo" data-pptx-bounds="520 220 720 250">
+    <text x="520" y="256" font-size="16" font-weight="bold" fill="#1497C4" letter-spacing="3">PROPUESTA</text>
+    <text x="520" y="320" font-size="48" font-weight="bold" fill="#0B2545">Sistema de gestión de<tspan x="520" dy="60">mantenimiento preventivo</tspan></text>
+    <text x="520" y="436" font-size="24" fill="#4A5A6A">Equipos de refrigeración · CVG Ferrominera Orinoco, C.A.</text>
+  </g>
+  <g id="portada-autor" data-pptx-bounds="520 540 720 130">
+    <rect x="520" y="548" width="56" height="4" fill="#1497C4"/>
+    <text x="520" y="594" font-size="26" font-weight="bold" fill="#0B2545">Br. Braian Moreno</text>
+    <text x="520" y="630" font-size="18" fill="#4A5A6A">Tutor industrial: Ing. Jorge Rosas<tspan x="520" dy="26">Tutor académico: Ing. Yuswaldo Silva</tspan></text>
+  </g>
+</svg>

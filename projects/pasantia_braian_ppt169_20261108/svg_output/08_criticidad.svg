@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA"/>
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 410 10">
+    <rect x="0" y="0" width="410" height="10" fill="#1497C4"/>
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">ANÁLISIS DE CRITICIDAD · CUADRO 3</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Primero, lo que más impacta</text>
+  </g>
+  <g id="metodo" data-pptx-bounds="60 132 1160 36">
+    <text x="64" y="158" font-size="18" fill="#4A5A6A">Encuesta al jefe del departamento (26 años de servicio) · 37 áreas · <tspan font-weight="bold" fill="#0B2545">cada equipo hereda la criticidad de su área</tspan></text>
+  </g>
+  <g id="nivel-a" data-pptx-bounds="60 180 280 460">
+    <rect x="60" y="180" width="280" height="460" rx="14" fill="#FFFFFF"/>
+    <rect x="60" y="180" width="280" height="8" fill="#C62828"/>
+    <rect x="84" y="204" width="56" height="56" rx="10" fill="#C62828"/>
+    <text x="112" y="246" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+    <text x="156" y="241" font-size="24" font-weight="bold" fill="#0B2545">Alta</text>
+    <text x="84" y="312" font-size="40" font-weight="bold" fill="#C62828">173<tspan font-size="18" font-weight="normal" fill="#0B2545"> equipos</tspan></text>
+    <text x="84" y="340" font-size="16" fill="#0B2545">7 áreas · 18,9 %</text>
+    <text x="84" y="364" font-size="15" fill="#4A5A6A">Operación y áreas sensibles</text>
+    <rect x="84" y="378" width="232" height="1" fill="#0B2545" fill-opacity="0.15"/>
+    <text x="84" y="400" font-size="12" font-weight="bold" fill="#8A97A5" letter-spacing="2">ÁREAS</text>
+    <g font-size="15" fill="#0B2545">
+      <text x="84" y="426">Gerencia de Calidad</text>
+      <text x="84" y="448">Planta de Briquetas</text>
+      <text x="84" y="470">PMH</text>
+      <text x="84" y="492">Agencia de Buques (Muelle)</text>
+      <text x="84" y="514">Ferrocarril</text>
+      <text x="84" y="536">Telemática</text>
+      <text x="84" y="558">Control Central</text>
+    </g>
+  </g>
+  <g id="nivel-b" data-pptx-bounds="356 180 568 460">
+    <rect x="356" y="180" width="568" height="460" rx="14" fill="#FFFFFF"/>
+    <rect x="356" y="180" width="568" height="8" fill="#B7791F"/>
+    <rect x="380" y="204" width="56" height="56" rx="10" fill="#B7791F"/>
+    <text x="408" y="246" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">B</text>
+    <text x="452" y="241" font-size="24" font-weight="bold" fill="#0B2545">Media</text>
+    <text x="380" y="312" font-size="40" font-weight="bold" fill="#B7791F">446<tspan font-size="18" font-weight="normal" fill="#0B2545"> equipos</tspan></text>
+    <text x="380" y="340" font-size="16" fill="#0B2545">24 áreas · 64,9 %</text>
+    <text x="380" y="364" font-size="15" fill="#4A5A6A">Confort del personal: espacios administrativos y de servicio</text>
+    <rect x="380" y="378" width="520" height="1" fill="#0B2545" fill-opacity="0.15"/>
+    <text x="380" y="400" font-size="12" font-weight="bold" fill="#8A97A5" letter-spacing="2">ÁREAS</text>
+    <g font-size="14" fill="#0B2545">
+      <text x="380" y="426">Escuela Diego de Ordaz I</text>
+      <text x="380" y="448">Escuela Palúa</text>
+      <text x="380" y="470">Clínica Palúa</text>
+      <text x="380" y="492">Administrativo II</text>
+      <text x="380" y="514">Mario Lezama Esquivel</text>
+      <text x="380" y="536">Administrativo III</text>
+      <text x="380" y="558">Hospital Américo Babo</text>
+      <text x="380" y="580">Casona</text>
+      <text x="566" y="426">Talento Humano</text>
+      <text x="566" y="448">Portón I</text>
+      <text x="566" y="470">C-13</text>
+      <text x="566" y="492">Jubilado</text>
+      <text x="566" y="514">Administrativo I</text>
+      <text x="566" y="536">Despacho Internacional</text>
+      <text x="566" y="558">Almacén</text>
+      <text x="566" y="580">Procura</text>
+      <text x="742" y="426">Bomberos</text>
+      <text x="742" y="448">Transportación</text>
+      <text x="742" y="470">Gerencia de Servicios</text>
+      <text x="742" y="492">Auditoría Interna</text>
+      <text x="742" y="514">Parque Ecológico</text>
+      <text x="742" y="536">Servicios Industriales</text>
+      <text x="742" y="558">Planta de Agua y Hielo</text>
+      <text x="742" y="580">Gerencia General de<tspan x="742" dy="18">Jefatura de Proyectos</tspan></text>
+    </g>
+  </g>
+  <g id="nivel-c" data-pptx-bounds="940 180 280 460">
+    <rect x="940" y="180" width="280" height="460" rx="14" fill="#FFFFFF"/>
+    <rect x="940" y="180" width="280" height="8" fill="#2E7D4F"/>
+    <rect x="964" y="204" width="56" height="56" rx="10" fill="#2E7D4F"/>
+    <text x="992" y="246" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">C</text>
+    <text x="1036" y="241" font-size="24" font-weight="bold" fill="#0B2545">Baja</text>
+    <text x="964" y="312" font-size="40" font-weight="bold" fill="#2E7D4F">52<tspan font-size="18" font-weight="normal" fill="#0B2545"> equipos</tspan></text>
+    <text x="964" y="340" font-size="16" fill="#0B2545">6 áreas · 16,2 %</text>
+    <text x="964" y="364" font-size="15" fill="#4A5A6A">Zonas de menor impacto</text>
+    <rect x="964" y="378" width="232" height="1" fill="#0B2545" fill-opacity="0.15"/>
+    <text x="964" y="400" font-size="12" font-weight="bold" fill="#8A97A5" letter-spacing="2">ÁREAS</text>
+    <g font-size="15" fill="#0B2545">
+      <text x="964" y="426">Desarrollo Endógeno</text>
+      <text x="964" y="448">Centro Cívico</text>
+      <text x="964" y="470">Estadio</text>
+      <text x="964" y="492">C-11</text>
+      <text x="964" y="514">Comisariato</text>
+      <text x="964" y="536">Portón Principal</text>
+    </g>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">08</text>
+  </g>
+</svg>

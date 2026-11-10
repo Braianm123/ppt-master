@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 205 10">
+    <rect x="0" y="0" width="205" height="10" fill="#1497C4" />
+  </g>
+  <g id="objetivo" data-pptx-bounds="140 150 1000 330">
+    <circle cx="180" cy="200" r="40" fill="#1497C4" />
+    <use data-icon="tabler-filled/flag" x="156" y="176" width="48" height="48" fill="#FFFFFF" />
+    <text x="244" y="210" font-size="16" font-weight="bold" fill="#1497C4" letter-spacing="3">OBJETIVO</text>
+    <text x="144" y="314" font-size="44" font-weight="bold" fill="#0B2545">Proponer un sistema de gestión<tspan x="144" dy="58">de <tspan fill="#1497C4">mantenimiento preventivo</tspan></tspan><tspan x="144" dy="58">para los equipos de refrigeración.</tspan></text>
+  </g>
+  <g id="alcance" data-pptx-bounds="140 520 1000 90">
+    <rect x="140" y="528" width="1000" height="76" rx="12" fill="#1497C4" fill-opacity="0.08" />
+    <text x="172" y="575" font-size="22" fill="#0B2545"><tspan font-weight="bold">Alcance:</tspan> diagnóstico, diseño y propuesta. La implantación queda a decisión de la empresa.</text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">04</text>
+  </g>
+</svg>

@@ -1,0 +1,1787 @@
+{
+  "version": 1,
+  "defaults": {
+    "transition": {
+      "effect": "fade",
+      "duration": 0.6
+    },
+    "animation": {
+      "stagger": 0.15
+    }
+  },
+  "slides": {
+    "01_portada": {
+      "groups": {
+        "portada-etiqueta": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "portada-logos": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "portada-titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "portada-autor": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      }
+    },
+    "02_introduccion": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "empresa": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "unidad": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "pasantia": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "premisa": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ciclo": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "contexto": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 7,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "01_portada",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "03_problema": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "problemas": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "hallazgo": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "02_introduccion",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "04_objetivo": {
+      "groups": {
+        "objetivo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "alcance": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "03_problema",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "05_ruta": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-1": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-2": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-3": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-4": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-5": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "paso-6": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 7,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "04_objetivo",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "06_diagnostico": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "espina": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "causa-metodos": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "causa-informacion": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "causa-medicion": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "causa-trazabilidad": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "efecto": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 7,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "05_ruta",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "07_inventario": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cifra-parque": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "origen": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "por-tipo": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "down"
+              },
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ficha": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "06_diagnostico",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "08_criticidad": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "metodo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "nivel-a": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "nivel-b": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "nivel-c": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "07_inventario",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "09_plan_preventivo": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cifras-plan": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "checklist": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "down"
+              },
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "08_criticidad",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "10_indicadores": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-cumplimiento": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-mtbf": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-mttr": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-disponibilidad": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-tasa": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "ind-confiabilidad": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 7,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "nota-indicadores": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 8,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "09_plan_preventivo",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "11_herramienta": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "atributos": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "modulos": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "recorrido": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "10_indicadores",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "12_modulo_tablero": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            },
+            {
+              "effect": "exit_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "order": 4,
+              "trigger": "on-click",
+              "duration": 0.5
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "11_herramienta",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "13_modulo_equipos": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            },
+            {
+              "effect": "exit_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "order": 4,
+              "trigger": "on-click",
+              "duration": 0.5
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "12_modulo_tablero",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "14_modulo_registrar": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            },
+            {
+              "effect": "exit_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "order": 4,
+              "trigger": "on-click",
+              "duration": 0.5
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "13_modulo_equipos",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "15_modulo_jornadas": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            },
+            {
+              "effect": "exit_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "order": 4,
+              "trigger": "on-click",
+              "duration": 0.5
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "14_modulo_registrar",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "16_modulo_diario": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            },
+            {
+              "effect": "exit_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "order": 4,
+              "trigger": "on-click",
+              "duration": 0.5
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "15_modulo_jornadas",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "17_modulo_analisis": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "descripcion": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "16_modulo_diario",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          },
+          "modulo": {
+            "from": "modulo-activo",
+            "to": "modulo-activo"
+          }
+        }
+      }
+    },
+    "18_confiabilidad": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "kpis": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "lectura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "captura": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "left"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "17_modulo_analisis",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "19_refrigerante_repuestos": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-refrigerante": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-repuestos": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "18_confiabilidad",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "20_historial_instalados": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-historial": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "vista-instalados": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "19_refrigerante_repuestos",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "21_resultados": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "pareto": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cumplimiento": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "pocas-vitales": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "20_historial_instalados",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "22_conclusiones": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "conclusion-1": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "conclusion-2": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "conclusion-3": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "conclusion-4": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "21_resultados",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "23_conclusion_general": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "sintesis": {
+          "effects": [
+            {
+              "effect": "entrance_wipe",
+              "effect_options": {
+                "direction": "right"
+              },
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "aporte": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "facilidades": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "dificultades": {
+          "effects": [
+            {
+              "effect": "entrance_fly",
+              "effect_options": {
+                "direction": "up"
+              },
+              "duration": 0.6,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cadena": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "22_conclusiones",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "24_recomendaciones": {
+      "groups": {
+        "titulo": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-adoptar": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-antiguedad": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 3,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-temperatura": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 4,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-criticidad": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 5,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-pareto": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 6,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "rec-iso": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 7,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "23_conclusion_general",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    },
+    "25_cierre": {
+      "groups": {
+        "cierre-mensaje": {
+          "effects": [
+            {
+              "effect": "entrance_zoom",
+              "duration": 0.5,
+              "order": 1,
+              "trigger": "after-previous"
+            }
+          ]
+        },
+        "cierre-autor": {
+          "effects": [
+            {
+              "effect": "entrance_fade",
+              "duration": 0.5,
+              "order": 2,
+              "trigger": "after-previous"
+            }
+          ]
+        }
+      },
+      "transition": {
+        "effect": "morph",
+        "effect_options": {
+          "morph_by": "object"
+        },
+        "duration": 0.8
+      },
+      "morph": {
+        "from": "24_recomendaciones",
+        "pairs": {
+          "avance": {
+            "from": "barra-avance",
+            "to": "barra-avance"
+          }
+        }
+      }
+    }
+  }
+}

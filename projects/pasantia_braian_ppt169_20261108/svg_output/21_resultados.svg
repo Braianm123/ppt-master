@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 1075 10">
+    <rect x="0" y="0" width="1075" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">RESULTADOS</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Los datos ya señalan prioridades</text>
+  </g>
+  <g id="pareto" data-pptx-bounds="56 160 816 456">
+    <rect x="60" y="164" width="808" height="418" rx="12" fill="#FFFFFF" />
+    <image href="../images/image_016.png" x="64" y="168" width="800" height="406" preserveAspectRatio="xMidYMid meet" />
+    <text x="64" y="606" font-size="14" fill="#6B7A89">Pareto de causas de falla por horas fuera de servicio · módulo Análisis, TPM FMO</text>
+  </g>
+  <g id="cumplimiento" data-pptx-bounds="900 160 320 140">
+    <text x="900" y="228" font-size="72" font-weight="bold" fill="#1497C4">70,1 %</text>
+    <text x="904" y="264" font-size="20" fill="#0B2545">de cumplimiento del<tspan x="904" dy="26">plan preventivo</tspan></text>
+  </g>
+  <g id="pocas-vitales" data-pptx-bounds="900 316 320 300">
+    <rect x="904" y="320" width="56" height="4" fill="#C62828" />
+    <text x="904" y="364" font-size="26" font-weight="bold" fill="#0B2545">4 causas ≈ 80 %</text>
+    <text x="904" y="392" font-size="18" fill="#4A5A6A">del tiempo fuera de servicio</text>
+    <g fill="#C62828">
+      <rect x="904" y="426" width="12" height="12" rx="2" />
+      <rect x="904" y="466" width="12" height="12" rx="2" />
+      <rect x="904" y="506" width="12" height="12" rx="2" />
+      <rect x="904" y="546" width="12" height="12" rx="2" />
+    </g>
+    <g font-size="18" fill="#0B2545">
+      <text x="928" y="438">Fuga de refrigerante · <tspan font-weight="bold">197 h</tspan></text>
+      <text x="928" y="478">Falla de compresor · <tspan font-weight="bold">152 h</tspan></text>
+      <text x="928" y="518">Eléctrica / contactor · <tspan font-weight="bold">134 h</tspan></text>
+      <text x="928" y="558">Eléctrica / breaker · <tspan font-weight="bold">124 h</tspan></text>
+    </g>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">21</text>
+  </g>
+</svg>

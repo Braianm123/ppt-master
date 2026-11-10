@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 512 10">
+    <rect x="0" y="0" width="512" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">INDICADORES · UNE-EN 13306</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Seis números para decidir</text>
+  </g>
+  <g id="ind-cumplimiento" data-pptx-bounds="60 170 373 200">
+    <rect x="60" y="170" width="373" height="200" rx="14" fill="#FFFFFF" />
+    <text x="88" y="216" font-size="24" font-weight="bold" fill="#0B2545">Cumplimiento</text>
+    <text x="88" y="268" font-size="20" font-weight="bold" fill="#1497C4">Ejecutados ÷ programados × 100</text>
+    <text x="88" y="336" font-size="16" fill="#6B7A89">Desempeño de la gestión</text>
+  </g>
+  <g id="ind-mtbf" data-pptx-bounds="453 170 373 200">
+    <rect x="453" y="170" width="373" height="200" rx="14" fill="#FFFFFF" />
+    <text x="481" y="216" font-size="24" font-weight="bold" fill="#0B2545">MTBF</text>
+    <text x="481" y="268" font-size="20" font-weight="bold" fill="#1497C4">Operación ÷ n.º de fallas</text>
+    <text x="481" y="336" font-size="16" fill="#6B7A89">Confiabilidad del parque</text>
+  </g>
+  <g id="ind-mttr" data-pptx-bounds="846 170 374 200">
+    <rect x="846" y="170" width="374" height="200" rx="14" fill="#FFFFFF" />
+    <text x="874" y="216" font-size="24" font-weight="bold" fill="#0B2545">MTTR</text>
+    <text x="874" y="268" font-size="20" font-weight="bold" fill="#1497C4">Horas fuera ÷ reparaciones</text>
+    <text x="874" y="336" font-size="16" fill="#6B7A89">Mantenibilidad de los equipos</text>
+  </g>
+  <g id="ind-disponibilidad" data-pptx-bounds="60 390 373 200">
+    <rect x="60" y="390" width="373" height="200" rx="14" fill="#0B2545" />
+    <text x="88" y="436" font-size="24" font-weight="bold" fill="#FFFFFF">Disponibilidad</text>
+    <text x="88" y="488" font-size="20" font-weight="bold" fill="#5BC8E8">MTBF ÷ (MTBF + MTTR)</text>
+    <text x="88" y="556" font-size="16" fill="#C9D6E3">Tiempo apto para operar</text>
+  </g>
+  <g id="ind-tasa" data-pptx-bounds="453 390 373 200">
+    <rect x="453" y="390" width="373" height="200" rx="14" fill="#FFFFFF" />
+    <text x="481" y="436" font-size="24" font-weight="bold" fill="#0B2545">Tasa de fallas (λ)</text>
+    <text x="481" y="488" font-size="20" font-weight="bold" fill="#1497C4">λ = 1 ÷ MTBF</text>
+    <text x="481" y="556" font-size="16" fill="#6B7A89">Frecuencia de las fallas</text>
+  </g>
+  <g id="ind-confiabilidad" data-pptx-bounds="846 390 374 200">
+    <rect x="846" y="390" width="374" height="200" rx="14" fill="#FFFFFF" />
+    <text x="874" y="436" font-size="24" font-weight="bold" fill="#0B2545">Confiabilidad R(t)</text>
+    <text x="874" y="488" font-size="20" font-weight="bold" fill="#1497C4">R(t) = e<tspan baseline-shift="super" font-size="14">−λt</tspan></text>
+    <text x="874" y="556" font-size="16" fill="#6B7A89">Probabilidad de operar sin fallar</text>
+  </g>
+  <g id="nota-indicadores" data-pptx-bounds="60 604 1160 48">
+    <text x="64" y="636" font-size="20" fill="#0B2545">Antes no se calculaban: <tspan font-weight="bold">la herramienta los obtiene de forma automática.</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">10</text>
+  </g>
+</svg>

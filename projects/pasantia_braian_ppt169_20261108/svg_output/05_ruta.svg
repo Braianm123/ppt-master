@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="es-VE" data-pptx-page-role="content" font-family="Segoe UI, Arial, sans-serif">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F4F7FA" />
+  <g id="barra-avance" data-pptx-role="decoration" data-pptx-bounds="0 0 256 10">
+    <rect x="0" y="0" width="256" height="10" fill="#1497C4" />
+  </g>
+  <g id="titulo" data-pptx-bounds="60 40 1160 90" font-weight="bold">
+    <text x="64" y="66" font-size="16" fill="#1497C4" letter-spacing="3">PLAN DE TRABAJO</text>
+    <text x="64" y="112" font-size="40" fill="#0B2545">Seis pasos, del dato al sistema</text>
+  </g>
+  <g id="paso-1" data-pptx-bounds="52 236 189 304">
+    <text x="64" y="276" font-size="28" font-weight="bold" fill="#1497C4">01</text>
+    <g id="p04-chev-1" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="52 300 230 110" fill="#0B2545" stroke="none">
+<path d="M 52 300 L 227 300 L 282 355 L 227 410 L 52 410 L 107 355 Z" />
+</g>
+    <text x="182" y="362" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Diagnóstico</text>
+    <text x="64" y="460" font-size="16" fill="#4A5A6A">Observación,<tspan x="64" dy="22">entrevistas</tspan><tspan x="64" dy="22">y registros</tspan></text>
+  </g>
+  <g id="paso-2" data-pptx-bounds="241 236 189 304">
+    <text x="253" y="276" font-size="28" font-weight="bold" fill="#1497C4">02</text>
+    <g id="p04-chev-2" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="241 300 230 110" fill="#10365E" stroke="none">
+<path d="M 241 300 L 416 300 L 471 355 L 416 410 L 241 410 L 296 355 Z" />
+</g>
+    <text x="371" y="362" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Inventario</text>
+    <text x="253" y="460" font-size="16" fill="#4A5A6A">Base única<tspan x="253" dy="22">de equipos,</tspan><tspan x="253" dy="22">depurada</tspan></text>
+  </g>
+  <g id="paso-3" data-pptx-bounds="430 236 189 304">
+    <text x="442" y="276" font-size="28" font-weight="bold" fill="#1497C4">03</text>
+    <g id="p04-chev-3" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="430 300 230 110" fill="#134A78" stroke="none">
+<path d="M 430 300 L 605 300 L 660 355 L 605 410 L 430 410 L 485 355 Z" />
+</g>
+    <text x="560" y="362" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Criticidad</text>
+    <text x="442" y="460" font-size="16" fill="#4A5A6A">Áreas A, B y C<tspan x="442" dy="22">según impacto</tspan><tspan x="442" dy="22">de la falla</tspan></text>
+  </g>
+  <g id="paso-4" data-pptx-bounds="619 236 189 304">
+    <text x="631" y="276" font-size="28" font-weight="bold" fill="#1497C4">04</text>
+    <g id="p04-chev-4" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="619 300 230 110" fill="#155F92" stroke="none">
+<path d="M 619 300 L 794 300 L 849 355 L 794 410 L 619 410 L 674 355 Z" />
+</g>
+    <text x="749" y="350" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Plan<tspan x="749" dy="24">preventivo</tspan></text>
+    <text x="631" y="460" font-size="16" fill="#4A5A6A">Frecuencias<tspan x="631" dy="22">y checklist</tspan><tspan x="631" dy="22">por tipo</tspan></text>
+  </g>
+  <g id="paso-5" data-pptx-bounds="808 236 189 304">
+    <text x="820" y="276" font-size="28" font-weight="bold" fill="#1497C4">05</text>
+    <g id="p04-chev-5" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="808 300 230 110" fill="#1676AC" stroke="none">
+<path d="M 808 300 L 983 300 L 1038 355 L 983 410 L 808 410 L 863 355 Z" />
+</g>
+    <text x="938" y="362" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Indicadores</text>
+    <text x="820" y="460" font-size="16" fill="#4A5A6A">MTBF, MTTR,<tspan x="820" dy="22">disponibilidad</tspan><tspan x="820" dy="22">y cumplimiento</tspan></text>
+  </g>
+  <g id="paso-6" data-pptx-bounds="997 236 230 304">
+    <text x="1009" y="276" font-size="28" font-weight="bold" fill="#1497C4">06</text>
+    <g id="p04-chev-6" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="997 300 230 110" fill="#1497C4" stroke="none">
+<path d="M 997 300 L 1172 300 L 1227 355 L 1172 410 L 997 410 L 1052 355 Z" />
+</g>
+    <text x="1127" y="362" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Herramienta</text>
+    <text x="1009" y="460" font-size="16" fill="#4A5A6A">App TPM FMO<tspan x="1009" dy="22">y socialización</tspan><tspan x="1009" dy="22">con el personal</tspan></text>
+  </g>
+  <g id="pie" data-pptx-role="footer" data-pptx-bounds="60 676 1160 28" fill="#6B7A89" font-size="14">
+    <text x="64" y="696">Braian Moreno · Pasantía CVG Ferrominera Orinoco</text>
+    <text x="1216" y="696" font-weight="bold" text-anchor="end">05</text>
+  </g>
+</svg>
